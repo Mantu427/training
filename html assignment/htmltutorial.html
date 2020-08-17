@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		table,td,th{
+			border-collapse: collapse;
+			border:1px solid black;
+            padding: 2px;
+		}
+
+		.city{
+			background-color: tomato;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+		}
+	</style>
+</head>
+<body style="border:2px solid black;margin: 10px 05px;">
+<h1 style="text-align: center;color:red;"><u>Welcome to Html Tutorial</u></h1>
+<h3>What is Html ?</h3>
+<p>
+	<ol><li>HTML stands for Hyper Text Markup Language</li>
+<li>HTML is the standard markup language for creating Web pages</li>
+<li>HTML describes the structure of a Web page</li>
+<li>HTML consists of a series of elements</li>
+<li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+</ol>
+</p>
+<b>HTML Headings:</b>
+<p>HTML headings are defined with the h1 to h6 tags.<br>
+
+h1 defines the most important heading. h6 defines the least important heading.<br>
+here is the example:
+<h1>Betacentauri Pvt Ltd</h1>
+<h2>Betacentauri Pvt Ltd</h2>
+<h3>Betacentauri Pvt Ltd</h3>
+<h4>Betacentauri Pvt Ltd</h4>
+<h5>Betacentauri Pvt Ltd</h5>
+<h6>Betacentauri Pvt Ltd</h6>
+
+</p>
+<p>
+	<h3>HTML Paragraphs:</h3><br>
+The HTML P element defines a paragraph.<br>
+
+A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph.<br>
+here is the example of a paragraph
+<p>Hello my name is Mantu Sahu. I am doing Internship at BetaCentauri Pvt Ltd.</p>
+</p>
+<pre>
+	HTML Formatting Elements
+Formatting elements were designed to display special types of text:
+
+b tag is used for - Bold text
+strong tag is used for- Important text
+i tag is used for - Italic text
+em tag is used for- Emphasized text
+mark tag is used for - Marked text
+small tag is used for- Smaller text
+del tag is used for- Deleted text
+ins tag is used for- Inserted text
+sub tag is used for- Subscript text
+sup tag is used for - Superscript text
+<br><br>
+<h2>example of all the formatting elements</h2>
+<b>My name is Mantu Sahu</b>
+<strong>My name is Mantu Sahu</strong>
+<i>My name is Mantu Sahu</i>
+<em>My name is Mantu Sahu</em>
+My name is<mark>Mantu Sahu.</mark>
+<small>My name is Mantu Sahu</small>
+my name is <del>rajesh</del>Mantu Sahu.
+my name is <ins>rajesh</ins>Mantu Sahu.
+h<sub>2</sub>o
+(a+b)<sup>2</sup>=a<sup>2</sup>+b<sup>2</sup>+2ab
+
+</pre>
+<p>
+HTML comments are not displayed in the browser, but they can help document your HTML source code.
+<!-- this is a comment line -->
+<h4>HTML colors are specified with predefined color names, or with RGB, HEX, HSL, RGBA, or HSLA values.</h4>
+<h1 style="background-color:DodgerBlue;">Hello World</h1>
+<p style="background-color:Tomato;">Lorem ipsum...</p>
+<h3>HTML Links - Hyperlinks</h3><br>
+<h4>HTML links are hyperlinks.</h4><br>
+
+You can click on a link and jump to another document.<br>
+
+When you move the mouse over a link, the mouse arrow will turn into a little hand.<br>
+<a href="https://www.w3schools.com/html/html_links.asp" target="_blank">Click here to visit Hypaerlink page of W3School</a>
+<h3>HTML Links - Use an Image as a Link</h3><br>
+To use an image as a link, just put the img tag inside the a tag:<br>
+<a href="https://www.w3schools.com/html/default.asp"target="_blank">
+<img src="logo.png" alt="HTML tutorial" style="width:42px;height:42px;">
+</a><br>
+
+<img src="prgimg.jpg"alt="programmer image"width="300"height="150">
+</p>
+<p>
+	<h3>HTML Tables</h3><br>
+	HTML tables allow web developers to arrange data into rows and columns.
+<table>
+	<tr>
+		<th>Name</th>
+		<th>Address</th>
+		<th>Contact No</th>
+	</tr>
+	<tr>
+		<td>Mantu Sahu</td>
+		<td>Titlagarh</td>
+		<td>7894707316</td>
+	</tr>
+	<tr>
+		<td>Sipun Meher</td>
+		<td>Boudh</td>
+		<td>9777324911</td>
+	</tr>
+	<tr>
+		<td>Rohit Kumar Sah</td>
+		<td>Sundargarh</td>
+		<td>9178543265</td>
+	</tr>
+</table>
+</p>
+<p>
+	<h2>HTML Lists</h2><br>
+	HTML lists allow web developers to group a set of related items in lists.<br>
+	There are 3 types of list supported by HTML:<br>
+	<ol>
+		<li>Unordered List</li>
+		<li>Ordered List</li>
+		<li>Description list</li>
+	</ol>
+	<h4>Unordered List</h4>
+ An unordered list starts with the ul tag. Each list item starts with the li tag.<br>
+
+The list items will be marked with bullets (small black circles) by default:<br>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+<br>
+<h4>Ordered List</h4>
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<br>
+<h4>Description List</h4>
+HTML also supports description lists.<br>
+
+A description list is a list of terms, with a description of each term.<br>
+
+The dl tag defines the description list, the dt tag defines the term (name), and the dd tag describes each term:<br>
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
+</p>
+<p>
+	<h3>HTML class Attribute</h3>
+	The HTML class attribute is used to specify a class for an HTML element.<br>
+
+Multiple HTML elements can share the same class.
+<div class="city">
+  <h2>London</h2>
+  <p>London is the capital of England.</p>
+</div>
+
+<div class="city">
+  <h2>Paris</h2>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div class="city">
+  <h2>Tokyo</h2>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+</p>
+<p>
+	<h2>HTML Iframes</h2>
+	An HTML iframe is used to display a web page within a web page.
+	<iframe src="trident.html" style="height:200px;width:300px;" title="Iframe Example"></iframe>
+</p>
+<p>
+	<h1>HTML Semantic Elements</h1>
+	<h3>What are Semantic Elements?</h3>
+	A semantic element clearly describes its meaning to both the browser and the developer.<br>
+
+Examples of non-semantic elements: div and span - Tells nothing about its content.<br>
+
+Examples of semantic elements: form, table, and article - Clearly defines its content.<br>
+<h3>HTML section Element</h3>
+The section element defines a section in a document.<br>
+
+According to W3C's HTML documentation: "A section is a thematic grouping of content, typically with a heading."<br>
+
+A web page could normally be split into sections for introduction, content, and contact information.<br>
+<section>
+<h1>WWF</h1>
+<p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+</section>
+
+<section>
+<h1>WWF's Panda symbol</h1>
+<p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p>
+</section><br>
+<h3>HTML article Element</h3>
+The article element specifies independent, self-contained content.<br>
+
+An article should make sense on its own, and it should be possible to distribute it independently from the rest of the web site.<br>
+
+Examples of where an article element can be used:<br>
+<ol>
+<li>Forum post</li>
+<li>Blog post</li>
+<li>Newspaper article</li>
+</ol><br>
+<article>
+<h2>Google Chrome</h2>
+<p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+</article>
+
+<article>
+<h2>Mozilla Firefox</h2>
+<p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+</article>
+
+<article>
+<h2>Microsoft Edge</h2>
+<p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+</article>
+	</p>
+	<p>
+		<h3>HTML header Element</h3><br>
+The header element represents a container for introductory content or a set of navigational links.<br>
+
+A header element typically contains:<br>
+
+one or more heading elements (h1 - h6)<br>
+logo or icon<br>
+authorship information<br>
+Note: You can have several header elements in one HTML document. However, header cannot be placed within a footer, address or another header element.<br>
+<h2>Example:</h2>
+<article>
+  <header>
+    <h1>What Does WWF Do?</h1>
+    <p>WWF's mission:</p>
+  </header>
+  <p>WWF's mission is to stop the degradation of our planet's natural environment,
+  and build a future in which humans live in harmony with nature.</p>
+</article>
+</p>
+<p>
+	<h3>HTML footer Element</h3>
+The footer element defines a footer for a document or section.<br>
+
+A footer element typically contains:<br>
+
+authorship information<br>
+copyright information<br>
+contact information<br>
+sitemap<br>
+back to top links<br>
+related documents<br>
+You can have several footer elements in one document.<br>
+
+<h3>Example</h3>
+<footer>
+  <p>Author: Mantu Sahu</p>
+  <p><a href="mailto:mantusahu427@gmail.com">mantusahu427@gmail.com</a></p>
+</footer>
+<h3>HTML nav Element</h3>
+The nav element defines a set of navigation links.<br>
+<h3>Example</h3>
+<nav>
+  <a href="/html/">HTML</a> |
+  <a href="/css/">CSS</a> |
+  <a href="/js/">JavaScript</a> |
+  <a href="/jquery/">jQuery</a>
+</nav>
+<h3>HTML aside Element</h3>
+The aside element defines some content aside from the content it is placed in (like a sidebar).<br>
+
+The aside content should be indirectly related to the surrounding content.<br>
+
+<h2>Example</h2>
+Display some content aside from the content it is placed in:<br>
+<p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+<aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+</p>
+<p>
+	<h1>HTML Forms</h1>
+	An HTML form is used to collect user input. The user input is most often sent to a server for processing.<br>
+	<h3>The form Element</h3>
+	<h2>The input Element</h2>
+One of the most used form element is the input element.<br>
+
+The input element can be displayed in several ways, depending on the type attribute.<br>
+<label for="fname">First name:</label>
+<input type="text" id="fname" name="fname">
+<h3>The select Element</h3>
+The select element defines a drop-down list:<br>
+  <form>
+<label for="cars">Choose a car:</label>
+<select id="cars" name="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+</select>
+</form>
+<h3>The textarea Element</h3>
+The textarea element defines a multi-line input field (a text area):<br>
+<textarea name="message" rows="10" cols="30">
+The cat was playing in the garden.
+</textarea>
+<h3>The button Element</h3>
+The button element defines a clickable button:
+<button type="button" onclick="alert('Hello World!')">Click Me!</button>
+<h3>Input Type Password</h3>
+input type="password" defines a password field:<br>
+  <form>
+<label for="username">Username:</label><br>
+  <input type="text" id="username" name="username"><br>
+  <label for="pwd">Password:</label><br>
+  <input type="password" id="pwd" name="pwd">
+</form>
+
+</p>
+<p>
+	<h3>Input type Radio Button</h3>
+  <form>
+	 <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label>
+</form>
+  <h3>Input Type Checkbox</h3>
+    <form>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> I have a boat</label>
+</form>
+<h3>Input Type Date</h3>
+<label for="birthday">Birthday:</label>
+    <form>
+  <input type="date" id="birthday" name="birthday">
+</form>
+  <h3>Input Type Email</h3>
+  <form>
+  <label for="email">Enter your email:</label>
+  <input type="email" id="email" name="email">
+  <input type="submit" value="submit">
+  </form>
+</p>
+</body>
+</html>
