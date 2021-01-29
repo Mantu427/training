@@ -26,13 +26,13 @@ namespace MantuBookStore
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseRouting();
+             app.UseRouting();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World Mantu Sahu!");
+                    await context.Response.WriteAsync("Hello World!");
                 });
             });
         }
